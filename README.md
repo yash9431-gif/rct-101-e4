@@ -52,6 +52,7 @@
 ## Features to build
 
 1. Use of Redux to perform this is mandatory, else you will get zero marks.
+   - Use the given action types and initial State for each reducer.
 2. `/`: `Home` is a protected route, accessible post login.
 3. App should redirect to `/login`: `Login` page as soon as he visits the `/` : Home Url.
 4. Post `Login`, user should be re-directed to `/`: Home Page.
@@ -64,7 +65,7 @@
 
 ## General Instructions (**_IMPORTANT_**)
 
-1. Do not use Global CSS, instead use `<componentName>.module.css` convention for Css in that file.
+1. Do not use Global CSS, instead use `<componentName>.module.css` convention for CSS.
 2. Do Not Remove `data-cy="xxxx"` from anywhere, this are used by testing tools to test your code, removal of this will lead to low score.
 3. Make sure you use only the given components and dont create new files and folders as chaging component name, structures might result in giving you zero marks
 4. Make sure you use only the given data and dont create new data, as chaging data might result in giving you zero marks.
@@ -73,6 +74,7 @@
 
 #### Submission
 
-- You need to Submit Github Link as well as netify link.
+- You need to Submit Github Link as well as `netlify` link.
+- Deployment on `Netlify` is Mandatory.
 - Make sure you use masai github account provided by MasaiSchool(submit link to root folder of your repository on github).
 - Make Sure you have netify account, else you will be getting zero marks as netify takes down your app in few days if your account does not exist.
